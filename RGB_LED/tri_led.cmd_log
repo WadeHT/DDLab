@@ -1,0 +1,129 @@
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.xst" -ofn "C:/Users/user/Desktop/DDLAB/LAB8/RGB_LED_case/tri_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-2 tri_led.ngc tri_led.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o tri_led_map.ncd tri_led.ngd tri_led.pcf 
+par -w -intstyle ise -ol high -mt off tri_led_map.ncd tri_led.ncd tri_led.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml tri_led.twx tri_led.ncd -o tri_led.twr tri_led.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f tri_led.ut tri_led.ncd 
